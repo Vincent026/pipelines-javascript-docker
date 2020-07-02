@@ -19,7 +19,7 @@ stages:
     displayName: Build
     pool:
       name: 'Default'
-      vmImage: 'VANWESTS08'
+      vmImage: 'VANWESTS09'
     steps:
     - task: Docker@2
       displayName: Build an image
